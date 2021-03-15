@@ -9,6 +9,12 @@ pub(crate) struct CreateEvent {
 }
 
 #[derive(Debug)]
+pub(crate) struct Event {
+    pub name: String,
+    pub tickets: u32,
+}
+
+#[derive(Debug)]
 pub(crate) struct EventCreated;
 
 #[derive(Debug)]
